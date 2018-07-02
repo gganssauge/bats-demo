@@ -4,7 +4,7 @@ load "libs/bats-support/load"
 load "libs/bats-assert/load"
 load "libs/bats-file/load"
 
-. "deploy_something.sh"    # remember - this runs relative to our project root!
+. "deploy-something.sh"    # remember - this runs relative to our project root!
 
 #
 # The deployment creation is so expensive that
