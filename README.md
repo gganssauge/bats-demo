@@ -30,5 +30,9 @@ Use the script `support/add-bats-submodules.sh` to add the bats submodules
 to your sandbox.
 
 If you already cloned this repository it is only
-necessary to run `git submodule update --recursive` in order to get all
-bats modules required.
+necessary to run
+
+    git submodule init
+    git submodule update --recursive
+
+in order to get all bats modules required.
