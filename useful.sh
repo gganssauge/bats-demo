@@ -10,7 +10,7 @@
 fix_subject() {
     local name="$1"
 
-    sed -i 's,x,u'g "$name"
+    sed -i 's,x,u,g' "$name"
 }
 
 #
@@ -22,5 +22,5 @@ fix_subject() {
 create_subject() {
     local name="$1"
 
-    echo 'This is a sxbject' >"$name"
+    echo 'This is a subject' >"$name"
 }
