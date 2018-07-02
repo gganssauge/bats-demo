@@ -20,8 +20,8 @@ There are two cases to demonstrate
     reason) needs to be tested.
 
 ## unit test framework for bash scripts
-This uses the bats framework for bash testing at
-https://github.com/sstephenson/bats.
+This uses the bats framework at
+https://github.com/sstephenson/bats for testing bash scripts.
 
 I'm using it here in the form as a git submodule as proposed on
 https://github.com/ztombol/bats-docs.
