@@ -1,2 +1,8 @@
 # Created by .ignore support plugin (hsz.mobi)
-/.idea/
+*
+!.gitignore
+!deploy-something.sh
+!deployment_creator
+!do-production.sh
+README.md
+usefule.sh
