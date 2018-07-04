@@ -8,9 +8,9 @@
 #    name - name of subject file to fix 
 #
 fix_subject() {
-    local name="$1"
+    local name=$1
 
-    sed -i 's,x,u,g' "$name"
+    sed -i 's,x,u'g "$name"
 }
 
 #
@@ -20,7 +20,7 @@ fix_subject() {
 #    name - name of subject file to create 
 #
 create_subject() {
-    local name="$1"
+    local name=$1
 
-    echo 'This is a subject' >"$name"
+    echo 'This is a sxbject' >"$name"
 }

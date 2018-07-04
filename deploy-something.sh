@@ -6,5 +6,5 @@
 # for every run - succesful or not!
 #
 create_deployment() {
-    deployment_creator -f deployment-control.txt
+    ./deployment_creator -f deployment-control.txt
 }
