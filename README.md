@@ -18,6 +18,8 @@ There are two cases to demonstrate
    The *deploy-something.sh* libary contains a function to create a
    very expensive deployment which nonetheless (or better for this very
    reason) needs to be tested.
+   
+See the `feature/add-unit-tests` branch for a version containing bats tests.
 
 ## The story
 I'm the founder of a small startup "Fine subjects, inc." which will
