@@ -14,6 +14,8 @@ if test -f $1 ; then
     echo $1 >control.txt
 
     # ... and off we go!
-    create_deployment
+    # for this demo I want to use the deployment_creator app in this folder, so I add that to the path:
+    PATH=".:$PATH" \
+        create_deployment
 fi
 
